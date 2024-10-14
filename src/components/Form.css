@@ -1,0 +1,40 @@
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+
+}
+#container{
+    border-radius: 10px 10px 0 0;
+    border-color: cadetblue;
+    background-color: lightblue;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+
+}
+div input {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+}
+div button {
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+}
+#error{
+    color: red;
+    font-size: 12px;
+    margin: 10px;
+}
+#success{
+    color: green;
+    font-size: 12px;
+    margin: 10px;
+}
